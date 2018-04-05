@@ -1,0 +1,3 @@
+images/prueba/2.png
+images/prueba/5.png
+images/prueba/5.png
