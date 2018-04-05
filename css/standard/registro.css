@@ -1,0 +1,69 @@
+@media screen and (min-width: 800px) {
+	
+fieldset {
+	width: 500px; 
+	padding: 10px;
+	margin-left: 30%; 
+	margin-top: 5%
+} 
+
+legend {
+    font-weight: bold;
+    color: black;
+    font-size: 1.25em;
+} 
+
+label{
+	float:left;
+	display:block;
+	width:200px;
+}
+
+input {float: none; display: block;} 
+select {float: none; display: block;} 
+
+#foto{
+	margin-left: 200px
+}
+
+
+#enviar{
+	margin-left:200px;
+}
+}
+
+/*PARA PANTALLAS PEQUEÑAS*/
+@media screen and (max-width: 800px){
+
+	fieldset {
+	width: 200px; 
+	padding: 10px;
+	margin-left: 0%; 
+	margin-top: 5%
+} 
+
+legend {
+    font-weight: bold;
+     color: black;
+    font-size: 1.25em;
+} 
+
+label{
+	float:none;
+	display:block;
+	width:200px;
+}
+
+input {float: none; display: block;} 
+select {float: none; display: block;} 
+
+#foto{
+	margin-left: 0px
+}
+
+
+#enviar{
+	margin-left:100px;
+}
+	
+}

@@ -1,0 +1,147 @@
+@media screen and (min-width: 800px){
+body {
+    font-family: trebutchet MS, sans-serif;
+    background: #000000;
+    
+}
+
+.logo{height: auto;}
+
+p {
+    padding: 10px;
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 1.75em;
+    text-align: left;
+    line-height: 1.50;
+}
+
+h2{
+    padding: 10px;
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 2em;
+    text-align: left;
+    line-height: 0.2;
+}
+
+h3{
+    text-align: center;
+}
+
+header {
+   margin: 0 auto;
+   text-align: center;
+   color: #2E2E2E;
+    
+}
+
+footer {
+    margin: 0 auto;
+    height: 10%;
+    width: 100%;
+    background: #2E2E2E ;
+    clear: both;
+    
+}
+
+a:link, a:visited{
+    font-size: 1.5em;
+    color: red;
+}
+
+/*Menú nav*/
+nav{
+    float:left;
+    height: 40%;
+    width:100%;
+    background:#2E2E2E;
+    text-align: center;
+}
+
+a.menu{
+    
+    margin: 10% 5% 10% 5% ;
+    border:5px;
+    padding:1px;
+}
+
+}
+
+@media screen and (max-width: 800px){
+body {
+    font-family: trebutchet MS, sans-serif;
+    background: #000000;
+    
+}
+
+.logo{height: 100px;}
+
+p {
+    padding: 10px;
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 1.75em;
+    text-align: left;
+    line-height: 1.50;
+}
+
+h2{
+    padding: 10px;
+    font-weight: normal;
+    color: #FFFFFF;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 2em;
+    text-align: left;
+    line-height: 0.2;
+}
+
+h3{
+    text-align: center;
+}
+
+header {
+   margin: 0 auto;
+   text-align: center;
+   color: #2E2E2E;
+    
+}
+
+footer {
+    margin: 0 auto;
+    height: 10%;
+    width: 100%;
+    background: #2E2E2E ;
+    clear: both;
+    
+}
+
+a:link, a:visited{
+    font-size: 1.5em;
+    color: red;
+}
+
+/*Menú nav*/
+nav{
+    float:left;
+    height: 40%;
+    width:100%;
+    background:#2E2E2E;
+    text-align: center;
+}
+
+a.menu{
+    
+    margin: 10% 5% 10% 5% ;
+    border:5px;
+    padding:1px;
+}
+
+}

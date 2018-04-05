@@ -1,0 +1,83 @@
+body {
+    font-family: trebutchet MS, serif;
+    background: #c0b17b;
+    
+}
+
+.logo{height: auto;}
+
+
+p {
+    padding: 10px;
+    font-weight: normal;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 12pt;
+    text-align: left;
+    line-height: 1.50;
+}
+
+h2{
+    padding: 10px;
+    font-weight: normal;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+    font-size: 1.75em;
+    text-align: left;
+    line-height: 0.2;
+}
+
+h3{
+    text-align: center;
+}
+
+header {
+   margin: 0 auto;
+   text-align: center;
+   background-color: black;
+    
+}
+
+footer {
+    margin: 0 auto;
+    height: 10%;
+    width: 100%;
+    clear: both;
+    
+}
+
+
+article{
+    margin-left: 0%;
+    width: 300px;
+    padding: 1px;
+    text-align: center;
+    float: left;
+}
+
+fieldset {
+    width: 500px; 
+    padding: 10px;
+    margin-top: 10%
+    border:hidden;
+} 
+
+legend {font-weight: bold;} 
+
+label{
+    float:left;
+    display:block;
+    width:200px;
+}
+
+input {float: none; display: block;} 
+select {float: none; display: block;} 
+
+#foto{
+    margin-left: 200px
+}
+
+
+#enviar{
+    margin-left:200px;
+}

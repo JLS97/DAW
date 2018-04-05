@@ -1,0 +1,145 @@
+@media screen and (min-width: 800px) {
+.explicacion{
+    width: 100%;
+    margin: 2% auto;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.solicitar{
+    margin-left:300px;
+}
+
+.lado{
+    margin-left:200px;
+}
+
+.boton{
+    margin-left:300px;
+}
+
+aside{
+    float: left;
+    width: 25%;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 5% 5% 10% 5%;
+}
+
+table, tr,td{
+    margin: 5% auto;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+
+fieldset {
+    float: left;
+	width: 700px; 
+	padding: 10px; 
+    margin: 0% 5% 1% 5%;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 1.25em;
+    color: white;
+	
+}
+
+legend {
+    font-weight: bold;
+    
+} 
+
+label{
+	float:left;
+	display:block;
+	width:200px;
+}
+
+input{
+    float:none; 
+    display: block;
+}
+select {
+    float: none; 
+    display: block;
+} 
+
+#solicitar{
+	margin-left:10px 300px;
+}
+}
+
+@media screen and (max-width: 800px) {
+.explicacion{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 10%;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.solicitar{
+    margin-left:300px;
+}
+
+.boton{
+    margin-left:300px;
+}
+
+aside{
+    float: none;
+    width: 80%;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 5% 5% 10% 0%;
+}
+
+table, tr,td{
+    margin: 5% auto;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+
+fieldset {
+    float: none;
+	width: 90%; 
+	padding: 10px; 
+    margin: 0% 5% 1% 0%;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 1.25em;
+    color: white;
+	
+}
+
+legend {
+    font-weight: bold;
+} 
+
+label{
+	float:none;
+	display:block;
+	width:200px;
+}
+
+input{
+    float:none; 
+    display: block;
+}
+select {
+    float: none; 
+    display: block;
+} 
+
+#solicitar{
+	margin-left:100px;
+}
+}

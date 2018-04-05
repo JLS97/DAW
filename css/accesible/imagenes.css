@@ -1,0 +1,117 @@
+@media  screen and (min-width: 800px) {
+/*Imagenes*/
+article.Imagen{
+    width: 300px;
+    float: left;
+    
+    margin: 2% 5% 5% 8%;
+    
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+}
+
+article.Imagen > p{
+    text-align: center;
+}
+
+/*Inicio sesión*/
+form{
+    width:50%;
+    height: 10%;
+    padding:10px;
+    margin-left: 40%;
+    
+}
+
+fieldset.registro{
+    height:10%;
+    width: 200px;
+    padding: 10px;
+    border-color: red;
+}
+
+legend{ 
+    font-weight: bold;
+    font-size: 1.75em;
+    color: white;
+}
+
+label {
+    float: left; 
+    display: block; 
+    width: 200px;
+    color: white;
+    font-size: 1.25em;
+} 
+
+input {
+    float: none; 
+    display: block;
+    width: 150px;
+} 
+
+.centrado{
+    margin: 10px 100px;
+}
+}
+
+@media  screen and (max-width: 800px) {
+/*Imagenes*/
+article.Imagen{
+    width: 300px;
+    float: none;
+    
+    margin: 2% 5% 5% 2%;
+    
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+}
+
+article.Imagen > p{
+    text-align: center;
+}
+
+/*Inicio sesión*/
+form{
+    width:50%;
+    height: 10%;
+    padding:10px;
+    margin-left: 0%;
+    
+}
+
+fieldset.registro{
+    height:10%;
+    width: 200px;
+    padding: 10px;
+    border-color: red;
+}
+
+legend{ 
+    font-weight: bold;
+    font-size: 1.75em;
+    color: white;
+}
+
+label {
+    float: left; 
+    display: block; 
+    width: 200px;
+    color: white;
+    font-size: 1.25em;
+} 
+
+input {
+    float: none; 
+    display: block;
+    width: 150px;
+} 
+
+.centrado{
+    margin: 10px 100px;
+}
+}

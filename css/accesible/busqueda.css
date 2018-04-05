@@ -1,0 +1,93 @@
+@media screen and (min-width: 800px) {
+    
+fieldset {
+    width: 400px; 
+    padding: 10px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 3px solid white;
+} 
+legend {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+} 
+
+label {
+   
+    color: white;
+    font-size: 1.5em;
+    margin-right: 5%;
+} 
+.este {
+    float: left;
+    display: block;
+    width: 100px;
+} 
+input {
+    float: none; 
+    display: block;
+    margin-left: 150px;
+} 
+.centrado {margin: 10px 200px;
+} 
+
+#fecha1{
+	margin-left: 150px;
+	margin-top:-20px;
+   
+}
+
+#fecha2{
+	margin-left:150px;
+	margin-top:-17px;
+    
+}
+}
+
+@media screen and (max-width: 800px) {
+    
+fieldset {
+    width: 200px; 
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: 3px solid white;
+} 
+legend {
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+} 
+
+label {
+   
+    color: white;
+    font-size: 1.25em;
+    margin-right: 5%;
+} 
+.este {
+    float: left;
+    display: block;
+    width: 100px;
+} 
+input {
+    float: none; 
+    display: block;
+    margin-left: 50px;
+} 
+.centrado {margin: 10px 100px;
+} 
+
+#fecha1{
+	margin-left: 120px;
+	margin-top:-20px;
+   
+}
+
+#fecha2{
+	margin-left:120px;
+	margin-top:-17px;
+    
+}
+}

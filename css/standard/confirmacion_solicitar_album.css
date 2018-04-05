@@ -1,0 +1,49 @@
+@media screen and (min-width: 800px){
+  
+.explicacion{
+    width: 80%;
+   margin: 2% auto;
+    text-align: left;
+    border: 3px solid black;
+}
+
+.datos_solicitud{
+    width: 50%;
+   margin: 2% auto;
+    text-align: left;
+    border: 3px solid black;
+}
+
+.confirmar{
+    width: 50%;
+   margin: 2% auto;
+    text-align: left;
+    border: 3px solid black;
+}
+}
+
+@media screen and (max-width: 800px){
+  .explicacion{
+    width: 80%;
+    margin-left: 0%;
+      margin-top: 10%;
+    text-align: left;
+    border: 3px solid black;
+}
+
+.datos_solicitud{
+    width: 90%;
+    margin-left: 0%;
+    margin-top:5%;
+    text-align: left;
+    border: 3px solid black;
+}
+
+.confirmar{
+    width: 90%;
+  
+    margin-top:5%;
+    text-align: left;
+    border: 3px solid black;
+}
+}
